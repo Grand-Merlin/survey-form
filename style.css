@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body {
+  background-image: url("https://www.alain-bensoussan.com/wp-content/uploads/2017/05/34226189.jpg");
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  background-position: center;
+}
+#survey-form {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  background-color: #004A8B;
+  opacity: 0.7;
+  border-radius: 20px;
+  text-align: center;
+}
+label {
+  padding: 15px;
+}
+input {
+  margin: 15px;
+  border-radius: 5px;
+  
+}

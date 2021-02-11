@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">        
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">Formulaire d'enquête de François</h1>
+            <p id="description">Quel genre de développeur êtes-vous ?</p>
+            <form id="survey-form">
+              <label id="name-label">Nom</label>
+              <input id="name" type="text" placeholder="Entrer votre nom" required>
+              </br>
+              </br>
+              <label id="email-label">Email</label>
+              <input id="email" type="email" placeholder="Entrer votre email" required>
+              </br>
+              </br>
+              <label id="number-label">Age (optionnel)</label>
+              <input id="number" type="number" placeholder="Entrer votre age" min="10" max="99">
+              </br>
+              </br>
+              <label id="gender-label">Genre</label>
+              <select id="dropdown" name="dropdown">
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+                <option value="autres">Autres</option>
+              </select>
+              <br>
+              <br>
+              <label id="sentiment-label">Quelle est ton level ?</label>
+              <br>
+              <br>
+              <input type="radio" name="level" id="junior" value="junior">
+              <label for="junior">Junior</label><br>
+              <input type="radio" name="level" id="medior" value="medior">
+              <label for="medior">Medior</label><br>
+              <input type="radio" name="level" id="senior" value="senior">
+              <label for="senior">Senior</label><br>
+                <br>
+              <br>
+            
+              <label id="éditeur-label">Quelle est ton éditeur de code préférer ?</label><br><br>
+              <input type="checkbox" name="éditeur" id="visual studio code" value="visual studio code">
+              <label for="visual studio code">Visual studio code</label><br>
+              <input type="checkbox" name="éditeur" id="brackets" value="brackets">
+              <label for="brackets">Brackets</label><br>
+              <input type="checkbox" name="éditeur" id="vim" value="vim">
+              <label for="vim">Vim</label><br>
+              <input type="checkbox" name="éditeur" id="sublime Text" value="sublime Text">
+              <label for="sublime Text">Sublime Text</label><br><br>
+              <h3>As-tu d'autres suggestions ?</h3><br><br>
+              <textarea id="text-area" placeholder="entrer votre texte ici"></textarea><br><br>
+              <button type="submit" id="submit">Submit</button>
+            </form>
+            </div>
+            
+    </body>
+
+</html>
